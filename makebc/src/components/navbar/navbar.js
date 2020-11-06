@@ -1,23 +1,23 @@
 import React from 'react';
-import css from './navbar.module.css';
 import { NavLink } from 'react-router-dom';
 import NavigationItems from './NavigationItems/NavigationItems';
-import Logo from '../Logo/Logo';
+import Logo from '../../assets/MakeBCLogo.png';
 
-const navbar = () => {
+const navbar = (props) => {
 
     return (
-        <header className={css.NavBar}>
-            <div className={css.Logo}>
-                <NavLink to="/">
-                    <Logo />
-                </NavLink>
-            </div>
-            <nav className={css.DesktopOnly}>
-                <NavigationItems />
+        <div className="container">
+            <nav className={props.color} id="mainNav">
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <NavLink className="navbar-brand js-scroll-trigger" to="/"><img src={Logo} alt="" /></NavLink>
+                    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i className="fas fa-bars ml-1"></i>
+                    </button>
+                    <NavigationItems />
+                </div>
             </nav>
-        </header>
-
+        </div>
     )
 
 };
