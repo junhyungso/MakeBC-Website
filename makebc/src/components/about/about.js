@@ -1,8 +1,12 @@
 import React from 'react';
+import NavBar from '../navbar/navbar';
+
 
 function about(props){
     return(
         <div className ="about-page">
+                    <NavBar color="navbar navbar-expand-lg navbar-dark navbar-shrink"/>
+
             <header className="about-header">
                 <h1>Introducing MakeBC</h1>
                 <p>
