@@ -6,8 +6,9 @@ const NavigationItems = () => (
 
     <ul className="navbar-nav text-uppercase ml-auto">
         <NavigationItem link='/about' css="nav-link js-scroll-trigger">About</NavigationItem>
-        <NavigationItem link='/projects' css="nav-link js-scroll-trigger">Projects</NavigationItem>
-        <NavigationItem link='/upcomingevents' css="nav-link js-scroll-trigger">Upcoming Events</NavigationItem>
+        <NavigationItem link='/workshops' css="nav-link js-scroll-trigger">Workshops</NavigationItem>
+        <NavigationItem link='/communityevents' css="nav-link js-scroll-trigger">Community Events</NavigationItem>
+        <NavigationItem link='/schedule' css="nav-link js-scroll-trigger">Schedule</NavigationItem>
         <NavigationItem link='/contact' css="nav-link js-scroll-trigger">Contact</NavigationItem>
     </ul>
 
