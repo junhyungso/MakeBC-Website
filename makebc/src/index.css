@@ -539,12 +539,12 @@ pre code {
 .container-md,
 .container-sm {
   width: 100%;
-  /* padding-right: 0.75rem;
-  padding-left: 0.75rem; */
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
 }
-/* 
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -564,7 +564,7 @@ pre code {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
-} */
+}
 
 .containerMain,
 .containerMain-fluid,
@@ -606,6 +606,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
+  text-align: center;
 }
 
 .no-gutters {
@@ -3979,7 +3980,6 @@ input[type=button].btn-block {
 }
 
 .navbar {
-  
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -3987,7 +3987,6 @@ input[type=button].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
   padding-right: 2.5rem;
-  padding-left: 2.5rem;
 }
 .navbar-nav text-uppercase ml-autobar .container,
 .navbar .container-fluid,
@@ -4005,6 +4004,7 @@ input[type=button].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
+  margin-left: 2rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -10082,6 +10082,7 @@ img::-moz-selection {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #212529;
+  text-align: center;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10148,11 +10149,11 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  /* padding-top: 4rem; */
+  padding-bottom: 5rem;
   text-align: center;
   color: #fff;
-  background-image: url("./assets/img/header-bg1.png");
+  background-image: url("./assets/header-bg1.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10176,8 +10177,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-top: 2rem; */
+    padding-bottom: 3rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -10193,6 +10194,109 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
+header.masthead2 {
+  /* padding-top: 4rem; */
+  padding-bottom: 5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("./assets/wires.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead2 .masthead2-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead2 .masthead2-heading {
+  background-color: rgba(137,17,11, 0.5) ;
+  opacity: 95%;
+  margin-left: 22.5rem;
+  margin-right: 22.5rem;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+  header.masthead2 {
+    /* padding-top: 2rem; */
+    padding-bottom: 3rem;
+  }
+  header.masthead2 .masthead2-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  header.masthead2 .masthead2-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+header.masthead3 {
+  /* padding-top: 4rem; */
+  padding-bottom: 5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("./assets/microsoft.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead3 .masthead3-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead3 .masthead3-heading {
+  background-color: rgba(137,17,11, 0.5) ;
+  margin-left: 14.5rem;
+  margin-right: 14.5rem;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+  header.masthead3 {
+    /* padding-top: 2rem; */
+    padding-bottom: 3rem;
+  }
+  header.masthead3 .masthead3-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  header.masthead3 .masthead3-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
@@ -10460,7 +10564,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("./assets/img/map-image.png");
+  background-image: url("./assets/header-bg1.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -10521,4 +10625,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 .arrow {
   width: 5%;
   margin-top: 5em;
+}
+
+.clubImage {
+  width: 60%;
+  height: 10rem;
 }
