@@ -8,10 +8,10 @@ const About = () => {
     });
     return(
         <div>
-            <header className="masthead3">
+            <header className="masthead4">
                 <NavBar color="navbar navbar-expand-lg navbar-dark navbar-shrink"/>
                 <div className="containerMain">
-                    <div className="masthead3-heading ">About MakeBC</div>
+                    <div className="masthead4-heading ">About MakeBC</div>
                     <br/>
                 </div>
             </header>
@@ -19,6 +19,10 @@ const About = () => {
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">About</h2>
+                        <div>
+                            <p>
+                            MakeBC is  club aiming to create a community of makers here at Boston College, through a plethora of activities and workshops on electrical engineering. We plan on creating interdisciplinary collaborations between technology and the arts here on campus, and you can expect to see and participate in: projects for the social good, robotics, 3D printing and design, visits to makerspaces, and much more!                            </p>
+                        </div>
                         <h3 className="section-subheading text-muted">MakeBC</h3>
                     </div>
                     <ul className="timeline">
