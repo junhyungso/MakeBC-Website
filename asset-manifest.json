@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/MakeBC-Website/static/css/main.338fd1f2.chunk.css",
+    "main.js": "/MakeBC-Website/static/js/main.f1f4dd82.chunk.js",
+    "main.js.map": "/MakeBC-Website/static/js/main.f1f4dd82.chunk.js.map",
+    "runtime-main.js": "/MakeBC-Website/static/js/runtime-main.e5e69de7.js",
+    "runtime-main.js.map": "/MakeBC-Website/static/js/runtime-main.e5e69de7.js.map",
+    "static/js/2.b8c70034.chunk.js": "/MakeBC-Website/static/js/2.b8c70034.chunk.js",
+    "static/js/2.b8c70034.chunk.js.map": "/MakeBC-Website/static/js/2.b8c70034.chunk.js.map",
+    "static/js/3.cc9690de.chunk.js": "/MakeBC-Website/static/js/3.cc9690de.chunk.js",
+    "static/js/3.cc9690de.chunk.js.map": "/MakeBC-Website/static/js/3.cc9690de.chunk.js.map",
+    "index.html": "/MakeBC-Website/index.html",
+    "static/css/main.338fd1f2.chunk.css.map": "/MakeBC-Website/static/css/main.338fd1f2.chunk.css.map",
+    "static/js/2.b8c70034.chunk.js.LICENSE.txt": "/MakeBC-Website/static/js/2.b8c70034.chunk.js.LICENSE.txt",
+    "static/media/3dprint.bdcf518f.jpg": "/MakeBC-Website/static/media/3dprint.bdcf518f.jpg",
+    "static/media/MakeBCLogo.30139aed.png": "/MakeBC-Website/static/media/MakeBCLogo.30139aed.png",
+    "static/media/art.b77d1266.png": "/MakeBC-Website/static/media/art.b77d1266.png",
+    "static/media/cpx.2093c324.jpg": "/MakeBC-Website/static/media/cpx.2093c324.jpg",
+    "static/media/flashlight.db01a8ac.jpg": "/MakeBC-Website/static/media/flashlight.db01a8ac.jpg",
+    "static/media/index.css": "/MakeBC-Website/static/media/wires.f9f9953a.jpg",
+    "static/media/ledstrips.e95dfd91.jpg": "/MakeBC-Website/static/media/ledstrips.e95dfd91.jpg",
+    "static/media/ledstrips2.81ce403e.jpg": "/MakeBC-Website/static/media/ledstrips2.81ce403e.jpg",
+    "static/media/microsoft2.f041bebb.jpg": "/MakeBC-Website/static/media/microsoft2.f041bebb.jpg",
+    "static/media/microsoft3.494f2687.jpg": "/MakeBC-Website/static/media/microsoft3.494f2687.jpg",
+    "static/media/microsoft4.87ab7874.jpg": "/MakeBC-Website/static/media/microsoft4.87ab7874.jpg",
+    "static/media/robots.5e866ad0.jpg": "/MakeBC-Website/static/media/robots.5e866ad0.jpg",
+    "static/media/workshop.23ce09b8.jpg": "/MakeBC-Website/static/media/workshop.23ce09b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5e69de7.js",
+    "static/js/2.b8c70034.chunk.js",
+    "static/css/main.338fd1f2.chunk.css",
+    "static/js/main.f1f4dd82.chunk.js"
+  ]
+}
