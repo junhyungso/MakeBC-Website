@@ -16,7 +16,7 @@ import MainPage from './components/mainpage/MainPage';
 function App() {
   return (
     <div className={css.App}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
             <Route path='/about'>
                 <About />
