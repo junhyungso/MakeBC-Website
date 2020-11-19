@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import NavBar from '../navbar/navbar';
+import Footer from '../footer/footer';
 
 import MicrosoftPics from '../../assets/microsoft.jpg';
 import MicrosoftPics2 from '../../assets/microsoft2.jpg';
@@ -77,6 +78,7 @@ const CommunityEvents = () => {
                 </div>
             </div>
             <hr />
+            <Footer />
         </div>
     )
 

@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
 import NavBar from '../navbar/navbar';
+import Footer from '../footer/footer';
 
 import MicrosoftPics from '../../assets/microsoft.jpg';
 import MicrosoftPics2 from '../../assets/microsoft2.jpg';
 import MicrosoftPics4 from '../../assets/microsoft4.jpg';
 import WorkshopPics from '../../assets/workshop.jpg';
-import FlashlightPics from '../../assets/flashlight.jpg';
+// import FlashlightPics from '../../assets/flashlight.jpg';
+import FlashlightPics from '../../assets/flashlight.png';
 import ThreeDPrintPics from '../../assets/3dprint.jpg';
 import CPXPics from '../../assets/cpx.jpg';
 import RobotPics from '../../assets/robots.jpg';
@@ -30,18 +32,18 @@ const Workshops = () => {
             <div className="py-5">
                 <div className="container">
                     <div>
-                        <h2 className="section-heading text-uppercase">Project 1</h2>
+                        <h2 className="section-heading text-uppercase">LED Flashlight Workshop</h2>
                     </div>
                     <div className="row">
                         <div className="col-md-3 col-sm-6 my-3">
                             <img className="img-fluid d-block mx-auto" src={FlashlightPics} alt="" />
                         </div>
                         <div className="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <p>Led by Kevin Qi, the workshop taughts studentsthe basics of circuits and LEDs and were able to gain some hands-on experience creating and designing a homemade flashlight.</p>
                         </div>
                     </div>
                     <div>
-                        <h2 className="section-heading text-uppercase">Project 1</h2>
+                        <h2 className="section-heading text-uppercase">LED Music Light Strips Workshop</h2>
                     </div> 
                     <div className="row">
                         <div className="col-8">
@@ -52,7 +54,7 @@ const Workshops = () => {
                         </div>
                     </div>
                     <div>
-                        <h2 className="section-heading text-uppercase">Project 1</h2>
+                        <h2 className="section-heading text-uppercase">Robots Workshop</h2>
                     </div>
                     <div className="row">
                         <div className="col-md-3 col-sm-6 my-3">
@@ -63,7 +65,7 @@ const Workshops = () => {
                         </div>
                     </div>
                     <div>
-                        <h2 className="section-heading text-uppercase">Project 1</h2>
+                        <h2 className="section-heading text-uppercase">3D Printing Workshop</h2>
                     </div> 
                     <div className="row">
                         <div className="col-8">
@@ -76,6 +78,7 @@ const Workshops = () => {
                 </div>
             </div>
             <hr />
+            <Footer />
         </div>
     )
 
