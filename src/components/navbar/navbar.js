@@ -7,7 +7,7 @@ const Navbar = (props) => (
 
     <div>
         <nav className={props.color} id="mainNav">
-            <NavLink className="navbar-brand js-scroll-trigger" to={process.env.PUBLIC_URL + "/"} ><img className="logoMargin" src={Logo} alt="" /></NavLink>
+            <NavLink className="navbar-brand js-scroll-trigger" to="/" ><img className="logoMargin" src={Logo} alt="" /></NavLink>
             <button className="navbar-toggler navbar-toggler-right" onClick={()=>{document.getElementById("Dropdown").classList.toggle("show");}}>
                 Menu
                 <i className="fas fa-bars ml-1"></i>

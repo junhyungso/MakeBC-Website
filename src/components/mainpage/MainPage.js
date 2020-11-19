@@ -47,7 +47,8 @@ const MainPage = () => {
                                 {/* <i className="fas fa-circle fa-stack-2x text-primary"></i>
                                 <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> */}
                             {/* </span> */}
-                            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <p></p>
+                            <p className="text-muted">MakeBC hosts bi-weekly workshops run by both professors and students to engage BC students with engineering experiences. Click above to learn more about the kinds of workshops we have worked on.</p>
                         </div>
                         <div className="col-md-6">
                             <h4 className="my-3">Community Events</h4>
@@ -58,12 +59,16 @@ const MainPage = () => {
                                 {/* <i className="fas fa-circle fa-stack-2x text-primary"></i>
                                 <i className="fas fa-laptop fa-stack-1x fa-inverse"></i> */}
                             {/* </span> */}
-                            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <p></p>
+                            <p className="text-muted">MakeBC fosters the engagement with the wider community, through the mission of making engineering accessible to all. Click above to learn more about how we contribute to the community.</p>
                         </div>
                     </div>
                 </div>
             </section>
             <hr />
+            <div>
+                <h2>Gallery</h2>
+            </div>
             <div className="py-5">
                 <div className="container">
                     <div className="row">
