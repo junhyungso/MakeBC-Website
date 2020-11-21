@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import NavBar from '../navbar/navbar';
 import MicrosoftPics3 from '../../assets/microsoft3.jpg';
 import Footer from '../footer/footer';
+// import
 
 const Contact = () => {
     useEffect(() => {
