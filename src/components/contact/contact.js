@@ -1,49 +1,42 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import NavBar from '../navbar/navbar';
+import MicrosoftPics3 from '../../assets/microsoft3.jpg';
+import Footer from '../footer/footer';
 
-function contact(){
+const Contact = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    });
     return(
-      <div>
-        
-      </div>
-          //   render() {
-          //     return(
-          //       <div className="App">
-          //         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-          //           <div className="form-group">
-          //             <label htmlFor="name">Name</label>
-          //             <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-          //           </div>
-          //           <div className="form-group">
-          //             <label htmlFor="exampleInputEmail1">Email address</label>
-          //             <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-          //           </div>
-          //           <div className="form-group">
-          //             <label htmlFor="message">Message</label>
-          //             <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-          //           </div>
-          //           <button type="submit" className="btn btn-primary">Submit</button>
-          //         </form>
-          //       </div>
-          //     );
-          //   }
-          
-          //   onNameChange(event) {
-          //     this.setState({name: event.target.value})
-          //   }
-          
-          //   onEmailChange(event) {
-          //     this.setState({email: event.target.value})
-          //   }
-          
-          //   onMessageChange(event) {
-          //     this.setState({message: event.target.value})
-          //   }
-          
-          //   handleSubmit(event) {
-          //   }
-          // }
-            
-    );
+        <div>
+            <header className="masthead4">
+                <NavBar color="navbar navbar-expand-lg navbar-dark navbar-shrink"/>
+                <div className="containerMain">
+                    <div className="masthead4-heading ">Contact Us</div>
+                    <br/>
+                </div>
+            </header>
+            <div>
+                        <h2 className="section-heading text-uppercase">Get in Touch</h2>
+                    </div> 
+            <div className="py-5">
+                <div className="container">
+                    <div className="row">
+                            <div className="col-8">
+                                <p>If you’re interested in our mission and would like to join us on our new journey, please be sure to signup for our mailing list to stay up-to-date with our latest events and activities!</p>
+                                <p>
+                                    <a href="https://facebook.us20.list-manage.com/subscribe?u=234b1451652fea6271321ffbf&id=4351847d43" target="_blank"> Sign up here </a>
+                                </p>
+                                <p>140 Commonwealth Ave. Chestnut Hill MA United States 02467</p>
+                                <p>makebcclub@gmail.com</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        <Footer />
+        </div>
+
+    )
 }
 
-export default contact;
+export default Contact;
