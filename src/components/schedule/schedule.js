@@ -12,10 +12,10 @@ const Schedule = () => {
     });
     return (
         <div>
-            <header className="masthead4">
+            <header className="masthead5">
                 <NavBar color="navbar navbar-expand-lg navbar-dark navbar-shrink"/>
                 <div className="containerMain">
-                    <div className="masthead4-heading ">Upcoming Schedule</div>
+                    <div className="masthead5-heading ">Upcoming Schedule</div>
                     <br/>   
                 </div>
             </header>

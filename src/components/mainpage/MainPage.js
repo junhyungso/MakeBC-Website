@@ -6,12 +6,12 @@ import Footer from '../footer/footer';
 
 import MicrosoftPics from '../../assets/microsoftsEDITED.jpg';
 import MicrosoftPics2 from '../../assets/microsoft2.jpg';
+import MicrosoftPics3 from '../../assets/microsoft3.jpg';
 import MicrosoftPics4 from '../../assets/microsoft4.jpg';
 import WorkshopPics from '../../assets/workshop.jpg';
 import FlashlightPics from '../../assets/flashlight.jpg';
 import ThreeDPrintPics from '../../assets/3dprint.jpg';
 import CPXPics from '../../assets/cpx.jpg';
-import RobotPics from '../../assets/robots.jpg';
 import Wires from '../../assets/wiresEDITED.jpg';
 import LEDWorkshop from '../../assets/ledstrips.jpg';
 
@@ -69,7 +69,6 @@ const MainPage = () => {
             <div>
                 <h2>Gallery</h2>
             </div>
-            <div className="py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3 col-sm-6 my-3">
@@ -86,7 +85,22 @@ const MainPage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-3 col-sm-6 my-3">
+                            <img className="img-fluid d-block mx-auto" src={FlashlightPics} alt="" />
+                        </div> 
+                        <div className="col-md-3 col-sm-6 my-3">
+                            <img className="img-fluid d-block mx-auto" src={CPXPics} alt="" />
+                        </div>
+                        <div className="col-md-3 col-sm-6 my-3">
+                            <img className="img-fluid d-block mx-auto" src={ThreeDPrintPics} alt="" />
+                        </div>
+                        <div className="col-md-3 col-sm-6 my-3">
+                            <img className="img-fluid d-block mx-auto" src={MicrosoftPics3} alt="" />
+                        </div>
+                    </div>
+                </div>
             <hr />
             <Footer />
         </div>
