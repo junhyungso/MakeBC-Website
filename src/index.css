@@ -10130,8 +10130,8 @@ img::-moz-selection {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -10339,6 +10339,107 @@ header.masthead4 .masthead4-heading {
     margin-top: 2rem;
   }
   header.masthead4 .masthead4-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+header.masthead5 {
+  /* padding-top: 4rem; */
+  padding-bottom: 5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("./assets/wires.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead5 .masthead5-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead5 .masthead5-heading {
+  background-color: rgba(137,17,11, 0.8) ;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+  header.masthead5 {
+    /* padding-top: 2rem; */
+    padding-bottom: 3rem;
+  }
+  header.masthead5 .masthead5-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  header.masthead5 .masthead5-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+header.masthead6 {
+  /* padding-top: 4rem; */
+  padding-bottom: 5rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("./assets/engine.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead6 .masthead6-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead6 .masthead6-heading {
+  background-color: rgba(137,17,11, 0.8) ;
+  margin-left: 21rem;
+  margin-right: 21rem;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (min-width: 768px) {
+  header.masthead6 {
+    /* padding-top: 2rem; */
+    padding-bottom: 3rem;
+  }
+  header.masthead6 .masthead6-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  header.masthead6 .masthead6-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;

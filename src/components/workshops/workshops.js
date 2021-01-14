@@ -47,7 +47,7 @@ const Workshops = () => {
                     </div> 
                     <div className="row">
                         <div className="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <p>Combining our knowledge of JavaScript and Circuit Playground Express, MakeBC students were able to create a reactive music light strip that lit up based on the loudness of audio input.</p>
                         </div>
                         <div className="col-md-3 col-sm-6 my-3">
                             <img className="img-fluid d-block mx-auto" src={LEDWorkshop2} alt="" />
@@ -61,7 +61,7 @@ const Workshops = () => {
                             <img className="img-fluid d-block mx-auto" src={RobotPics} alt="" />
                         </div>
                         <div className="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <p>Through the help of Professor Gallaugher, students created Robot mobiles that could be controlled through an iOS app.</p>
                         </div>
                     </div>
                     <div>
@@ -69,7 +69,7 @@ const Workshops = () => {
                     </div> 
                     <div className="row">
                         <div className="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <p>Students learned the basics of 3D modeling through programmable softwares and got to experience printing their designs through a 3D printer.</p>
                         </div>
                         <div className="col-md-3 col-sm-6 my-3">
                             <img className="img-fluid d-block mx-auto" src={ThreeDPrintPics} alt="" />

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import NavBar from '../navbar/navbar';
-import MicrosoftPics3 from '../../assets/microsoft3.jpg';
+import MicrosoftPics from '../../assets/microsoft.jpg';
 import Footer from '../footer/footer';
 
 const Contact = () => {
@@ -9,10 +9,10 @@ const Contact = () => {
     });
     return(
         <div>
-            <header className="masthead4">
+            <header className="masthead6">
                 <NavBar color="navbar navbar-expand-lg navbar-dark navbar-shrink"/>
                 <div className="containerMain">
-                    <div className="masthead4-heading ">Contact Us</div>
+                    <div className="masthead6-heading ">Contact Us</div>
                     <br/>
                 </div>
             </header>
@@ -29,6 +29,9 @@ const Contact = () => {
                                 </p>
                                 <p>140 Commonwealth Ave. Chestnut Hill MA United States 02467</p>
                                 <p>makebcclub@gmail.com</p>
+                            </div>
+                            <div className="col-4">
+                                <img src={MicrosoftPics} alt="" width="100%"></img>
                             </div>
                     </div>
                 </div>
