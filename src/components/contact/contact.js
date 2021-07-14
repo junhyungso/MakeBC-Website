@@ -4,9 +4,11 @@ import MicrosoftPics from '../../assets/microsoft.jpg';
 import Footer from '../footer/footer';
 
 const Contact = () => {
+
     useEffect(() => {
         window.scrollTo(0, 0)
     });
+    
     return(
         <div>
             <header className="masthead6">
@@ -25,7 +27,7 @@ const Contact = () => {
                             <div className="col-8">
                                 <p>If you’re interested in our mission and would like to join us on our new journey, please be sure to signup for our mailing list to stay up-to-date with our latest events and activities!</p>
                                 <p>
-                                    <a href="https://facebook.us20.list-manage.com/subscribe?u=234b1451652fea6271321ffbf&id=4351847d43" target="_blank"> Sign up here </a>
+                                    <a href="https://facebook.us20.list-manage.com/subscribe?u=234b1451652fea6271321ffbf&id=4351847d43" target="_blank" rel="noreferrer"> Sign up here </a>
                                 </p>
                                 <p>140 Commonwealth Ave. Chestnut Hill MA United States 02467</p>
                                 <p>makebcclub@gmail.com</p>

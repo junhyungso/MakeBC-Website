@@ -2,20 +2,21 @@ import React, { useEffect } from 'react';
 import NavBar from '../navbar/navbar';
 import Footer from '../footer/footer';
 
-import WorkshopPics from '../../assets/workshop.jpg';
 import EndOfSem from '../../assets/EndOfSemFlyer.jpg';
 
 
 const Schedule = () => {
+
     useEffect(() => {
         window.scrollTo(0, 0)
     });
+
     return (
         <div>
             <header className="masthead5">
                 <NavBar color="navbar navbar-expand-lg navbar-dark navbar-shrink"/>
                 <div className="containerMain">
-                    <div className="masthead5-heading ">Upcoming Schedule</div>
+                    <div className="masthead5-heading">Upcoming Schedule</div>
                     <br/>   
                 </div>
             </header>
@@ -29,7 +30,7 @@ const Schedule = () => {
                             <img className="img-fluid d-block mx-auto" src={EndOfSem} alt="" />
                         </div>
                         <div className="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <p>Our final event of the semester to brainstorm ideas for possible projects to pursue next semester. Stay tuned for more exciting workshops hosted by MakeBC!</p>
                         </div>
                     </div>
                 </div>

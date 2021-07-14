@@ -6,5 +6,5 @@ const navigationItem = (props) => (
         <NavLink className={props.css} to={props.link}> {props.children} </NavLink>
     </li>
 );
-//exact={props.exact}
+
 export default navigationItem;  
