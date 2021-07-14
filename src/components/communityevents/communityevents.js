@@ -2,24 +2,16 @@ import React, { useEffect } from 'react';
 import NavBar from '../navbar/navbar';
 import Footer from '../footer/footer';
 
-import MicrosoftPics from '../../assets/microsoft.jpg';
-import MicrosoftPics2 from '../../assets/microsoft2.jpg';
 import MicrosoftPics3 from '../../assets/microsoft3.jpg';
-import MicrosoftPics4 from '../../assets/microsoft4.jpg';
 import WorkshopPics from '../../assets/workshop.jpg';
-import FlashlightPics from '../../assets/flashlight.jpg';
-import ThreeDPrintPics from '../../assets/3dprint.jpg';
-import CPXPics from '../../assets/cpx.jpg';
-import RobotPics from '../../assets/robots.jpg';
-import Wires from '../../assets/wires.jpg';
-import LEDWorkshop from '../../assets/ledstrips.jpg';
-import LEDWorkshop2 from '../../assets/ledstrips2.jpg';
 import artPics from '../../assets/art.png';
 
 const CommunityEvents = () => {
+
     useEffect(() => {
         window.scrollTo(0, 0)
     });
+    
     return (
         <div>
             <header className="masthead3">

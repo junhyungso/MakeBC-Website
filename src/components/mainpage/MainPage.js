@@ -15,8 +15,6 @@ import CPXPics from '../../assets/cpx.jpg';
 import Wires from '../../assets/wiresEDITED.jpg';
 import LEDWorkshop from '../../assets/ledstrips.jpg';
 
-
-
 const MainPage = () => {
     return (
         <div>

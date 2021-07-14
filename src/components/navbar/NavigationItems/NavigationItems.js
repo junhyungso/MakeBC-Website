@@ -12,15 +12,6 @@ const NavigationItems = () => (
         <NavigationItem link='/contact' css="nav-link js-scroll-trigger">Contact</NavigationItem>
     </ul>
 
-    
-    // <ul className={css.NavigationItems}>
-    //     <NavigationItem link='/' exact>Home</NavigationItem>
-    //     <NavigationItem link='/about'>About</NavigationItem>
-    //     <NavigationItem link='/projects'>Projects</NavigationItem>
-    //     <NavigationItem link='/upcomingevents'>Upcoming Events</NavigationItem>
-    //     <NavigationItem link='/contact'>Contact</NavigationItem>
-
-    // </ul>
 )
 
 

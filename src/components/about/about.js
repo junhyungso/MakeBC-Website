@@ -2,18 +2,18 @@ import React, { useEffect } from 'react';
 import NavBar from '../navbar/navbar';
 import Footer from '../footer/footer';
 
-import Jolene from '../../assets/jolene.png';
-
 const About = () => {
+    
     useEffect(() => {
         window.scrollTo(0, 0)
     });
+
     return(
         <div>
             <header className="masthead4">
                 <NavBar color="navbar navbar-expand-lg navbar-dark navbar-shrink"/>
                 <div className="containerMain">
-                    <div className="masthead4-heading ">About MakeBC</div>
+                    <div className="masthead4-heading">About MakeBC</div>
                     <br/>
                 </div>
             </header>

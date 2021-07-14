@@ -2,20 +2,21 @@ import React, { useEffect } from 'react';
 import NavBar from '../navbar/navbar';
 import Footer from '../footer/footer';
 
-import WorkshopPics from '../../assets/workshop.jpg';
 import EndOfSem from '../../assets/EndOfSemFlyer.jpg';
 
 
 const Schedule = () => {
+
     useEffect(() => {
         window.scrollTo(0, 0)
     });
+
     return (
         <div>
             <header className="masthead5">
                 <NavBar color="navbar navbar-expand-lg navbar-dark navbar-shrink"/>
                 <div className="containerMain">
-                    <div className="masthead5-heading ">Upcoming Schedule</div>
+                    <div className="masthead5-heading">Upcoming Schedule</div>
                     <br/>   
                 </div>
             </header>

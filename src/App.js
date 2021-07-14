@@ -1,43 +1,48 @@
-import React from 'react';
+import React, { Suspense} from 'react';
 import {
-    BrowserRouter as Router,
     Switch,
     Route
   } from "react-router-dom";
-import About from './components/about/about';
-import Workshops from './components/workshops/workshops';
-import css from './App.module.css';
 
-import CommunityEvents from './components/communityevents/communityevents';
-import Contact from './components/contact/contact';
-import Schedule from './components/schedule/schedule';
-import MainPage from './components/mainpage/MainPage';
+import LoadingSpinner from './UI/LoadingSpinner';
+import css from './App.module.css';
+import NotFound from './UI/NotFound';
+
+const About = React.lazy( () => import('./components/about/about'));
+const Workshops = React.lazy( () => import('./components/workshops/workshops'));
+const CommunityEvents = React.lazy( () => import('./components/communityevents/communityevents'));
+const Contact = React.lazy( () => import('./components/contact/contact'));
+const Schedule = React.lazy( () => import('./components/schedule/schedule'));
+const MainPage = React.lazy( () => import('./components/mainpage/MainPage'));
 
 function App() {
   return (
     <div className={css.App}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Suspense fallback={<div className='centered'><LoadingSpinner /></div>}>
         <Switch>
-            <Route path='/about'>
-                <About />
-            </Route>
-            <Route path='/workshops'>
-                <Workshops />
-            </Route>
-            <Route path='/communityevents'>
-                <CommunityEvents />
-            </Route>
-            <Route path='/schedule'>
-                <Schedule />
-            </Route>
-            <Route path='/contact'>
-                <Contact />
-            </Route>
-              <Route path="/">
-                <MainPage />
-              </Route> 
+          <Route path="/" exact>
+            <MainPage />
+          </Route>
+          <Route path='/about'>
+              <About />
+          </Route>
+          <Route path='/workshops'>
+              <Workshops />
+          </Route>
+          <Route path='/communityevents'>
+              <CommunityEvents />
+          </Route>
+          <Route path='/schedule'>
+              <Schedule />
+          </Route>
+          <Route path='/contact'>
+              <Contact />
+          </Route> 
+          <Route path="*">
+            <NotFound />
+          </Route>
         </Switch>
-      </Router>  
+      </Suspense>
     </div>
   );
 }
