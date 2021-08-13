@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MakeBC-Website/static/css/main.625d28b8.chunk.css",
-    "main.js": "/MakeBC-Website/static/js/main.3e2eeda9.chunk.js",
-    "main.js.map": "/MakeBC-Website/static/js/main.3e2eeda9.chunk.js.map",
+    "main.js": "/MakeBC-Website/static/js/main.cc4799c4.chunk.js",
+    "main.js.map": "/MakeBC-Website/static/js/main.cc4799c4.chunk.js.map",
     "runtime-main.js": "/MakeBC-Website/static/js/runtime-main.7d6a6c57.js",
     "runtime-main.js.map": "/MakeBC-Website/static/js/runtime-main.7d6a6c57.js.map",
     "static/js/2.279e810d.chunk.js": "/MakeBC-Website/static/js/2.279e810d.chunk.js",
@@ -44,6 +44,6 @@
     "static/js/runtime-main.7d6a6c57.js",
     "static/js/2.279e810d.chunk.js",
     "static/css/main.625d28b8.chunk.css",
-    "static/js/main.3e2eeda9.chunk.js"
+    "static/js/main.cc4799c4.chunk.js"
   ]
 }
