@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MakeBC-Website/static/css/main.625d28b8.chunk.css",
-    "main.js": "/MakeBC-Website/static/js/main.cc4799c4.chunk.js",
-    "main.js.map": "/MakeBC-Website/static/js/main.cc4799c4.chunk.js.map",
+    "main.css": "/MakeBC-Website/static/css/main.35ba00a2.chunk.css",
+    "main.js": "/MakeBC-Website/static/js/main.3e2eeda9.chunk.js",
+    "main.js.map": "/MakeBC-Website/static/js/main.3e2eeda9.chunk.js.map",
     "runtime-main.js": "/MakeBC-Website/static/js/runtime-main.7d6a6c57.js",
     "runtime-main.js.map": "/MakeBC-Website/static/js/runtime-main.7d6a6c57.js.map",
     "static/js/2.279e810d.chunk.js": "/MakeBC-Website/static/js/2.279e810d.chunk.js",
@@ -20,7 +20,7 @@
     "static/js/8.16db861d.chunk.js": "/MakeBC-Website/static/js/8.16db861d.chunk.js",
     "static/js/8.16db861d.chunk.js.map": "/MakeBC-Website/static/js/8.16db861d.chunk.js.map",
     "index.html": "/MakeBC-Website/index.html",
-    "static/css/main.625d28b8.chunk.css.map": "/MakeBC-Website/static/css/main.625d28b8.chunk.css.map",
+    "static/css/main.35ba00a2.chunk.css.map": "/MakeBC-Website/static/css/main.35ba00a2.chunk.css.map",
     "static/js/2.279e810d.chunk.js.LICENSE.txt": "/MakeBC-Website/static/js/2.279e810d.chunk.js.LICENSE.txt",
     "static/media/3dprint.jpg": "/MakeBC-Website/static/media/3dprint.bdcf518f.jpg",
     "static/media/EndOfSemFlyer.59e7e986.jpg": "/MakeBC-Website/static/media/EndOfSemFlyer.59e7e986.jpg",
@@ -43,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d6a6c57.js",
     "static/js/2.279e810d.chunk.js",
-    "static/css/main.625d28b8.chunk.css",
-    "static/js/main.cc4799c4.chunk.js"
+    "static/css/main.35ba00a2.chunk.css",
+    "static/js/main.3e2eeda9.chunk.js"
   ]
 }
