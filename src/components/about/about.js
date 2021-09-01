@@ -53,7 +53,7 @@ const About = () => {
                             <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt=""></img></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <h4>November 2020</h4>
+                                    <h4>September 2021</h4>
                                     <h4 className="subheading">Present</h4>
                                 </div>
                                 <div className="timeline-body"><p className="text-muted">We continue to brainstorm project ideas to express our knowledge and passion for engineering.</p></div>
@@ -71,37 +71,37 @@ const About = () => {
                     <div className="col-lg-4">
                         <div className="team-member">
                             {/* <img className="mx-auto rounded-circle" src={Jolene} alt=""></img> */}
-                            <h4>Jolene Lozano</h4>
-                            <p className="text-muted">Co-President, Founder</p>
+                            <h4>Kevin Qi</h4>
+                            <p className="text-muted">Co-President</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="team-member">
                             {/* <img className="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt=""></img> */}
-                            <h4>Kim-An Quinn</h4>
+                            <h4>Sammy Wu</h4>
                             <p className="text-muted">Co-President</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="team-member">
                             {/* <img className="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt=""></img> */}
-                            <h4>Junhyung So</h4>
+                            <h4>Nipuni Obe</h4>
                             <p className="text-muted">Vice-President</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="team-member">
-                            <h4>Kevin Qi</h4>
+                            <h4>Slok Jariwala</h4>
                             <p className="text-muted">Treasurer</p>
                         </div>
                     </div>
                     <div className="col-lg-4">
                         <div className="team-member">
-                            <h4>Shahzad Manji</h4>
-                            <p className="text-muted">Internal Event Coordinator</p>
+                            <h4>Dana Salta</h4>
+                            <p className="text-muted">Graphics Designer</p>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    {/* <div className="col-lg-4">
                         <div className="team-member">
                             <h4>Mark Zhang </h4>
                             <p className="text-muted">Workshop Lead</p>
@@ -132,7 +132,7 @@ const About = () => {
                             <h4>Slok Jariwala</h4>
                             <p className="text-muted">Freshmen Representative</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
