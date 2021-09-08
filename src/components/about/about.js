@@ -78,7 +78,7 @@ const About = () => {
                     <div className="col-lg-4">
                         <div className="team-member">
                             {/* <img className="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt=""></img> */}
-                            <h4>Sammy Wu</h4>
+                            <h4>Sammi Wu</h4>
                             <p className="text-muted">Co-President</p>
                         </div>
                     </div>
@@ -93,12 +93,6 @@ const About = () => {
                         <div className="team-member">
                             <h4>Slok Jariwala</h4>
                             <p className="text-muted">Treasurer</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="team-member">
-                            <h4>Dana Salta</h4>
-                            <p className="text-muted">Graphics Designer</p>
                         </div>
                     </div>
                     {/* <div className="col-lg-4">
