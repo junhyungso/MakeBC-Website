@@ -28,7 +28,7 @@ const About = () => {
                         </div>
                         <h3 className="section-subheading text-muted">MakeBC</h3>
                     </div>
-                    <ul className="timeline">
+                    {/*<ul className="timeline">
                         <li>
                             <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt=""></img></div>
                             <div className="timeline-panel">
@@ -59,7 +59,7 @@ const About = () => {
                                 <div className="timeline-body"><p className="text-muted">We continue to brainstorm project ideas to express our knowledge and passion for engineering.</p></div>
                             </div>
                         </li>
-                    </ul>
+    </ul>*/}
                 </div>
             </section>
             <section className="page-section bg-light" id="team">
@@ -93,6 +93,32 @@ const About = () => {
                         <div className="team-member">
                             <h4>Slok Jariwala</h4>
                             <p className="text-muted">Treasurer</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="team-member">
+                            <h4>Jay Moon</h4>
+                            <p className="text-muted">Website Developer</p>
+                        </div>
+                    </div>
+                    {/*
+                    <div className="col-lg-4">
+                        <div className="team-member">
+                            <h4>Camden Mullen</h4>
+                            <p className="text-muted">Outreach Coordinator</p>
+                        </div>
+                    </div>
+                    */}
+                    <div className="col-lg-4">
+                        <div className="team-member">
+                            <h4>Jerry Hou, Michael Gennari, Jake Cizmarik{/*, William Gotanda*/}</h4> 
+                            <p className="text-muted">Workshop Leaders</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="team-member">
+                            <h4>William Gotanda, Camden Mullen</h4>
+                            <p className="text-muted">Freshmen Representatives</p>
                         </div>
                     </div>
                     {/* <div className="col-lg-4">

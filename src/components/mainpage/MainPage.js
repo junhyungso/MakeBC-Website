@@ -46,7 +46,7 @@ const MainPage = () => {
                                 <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> */}
                             {/* </span> */}
                             <p></p>
-                            <p className="text-muted">MakeBC hosts bi-weekly workshops run by both professors and students to engage BC students with engineering experiences. Click above to learn more about the kinds of workshops we have worked on.</p>
+                            <p className="text-muted">MakeBC hosts workshops run by both professors and students to engage BC students with engineering experiences. Click above to learn more about the kinds of workshops we have worked on.</p>
                         </div>
                         <div className="col-md-6">
                             <h4 className="my-3">Community Events</h4>
