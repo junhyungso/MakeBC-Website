@@ -59,8 +59,8 @@ const About = () => {
                                 <div className="timeline-body"><p className="text-muted">We continue to brainstorm project ideas to express our knowledge and passion for engineering.</p></div>
                             </div>
                         </li>
-    </ul>*/}
-                </div>
+    </ul>
+                </div>*/}
             </section>
             <section className="page-section bg-light" id="team">
             <div className="container">
